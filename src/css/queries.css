@@ -1,0 +1,9 @@
+@media(max-width: 800px) {
+  .heading-section ul {
+    display: none;
+  }
+
+  .fa-ellipsis-v {
+    display: flex;
+  }
+}
