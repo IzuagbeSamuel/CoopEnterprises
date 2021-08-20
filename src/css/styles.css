@@ -57,6 +57,7 @@ img {
 
 .outer-shadow {
   box-shadow: var(--outer-shadow);
+  border-radius: 10px;
 }
 
 .grid-container {
@@ -69,6 +70,22 @@ img {
 
 .grid-item {
   padding: 20px;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item-2 {
+  padding: 20px;
+}
+
+.fontColor {
+  animation: fontColor 10s ease-in-out infinite;
 }
 
 /* Heading Section Starts */
@@ -156,6 +173,25 @@ img {
 
 .article-section .article {
   text-align: center;
+}
+
+.article-section .article h3 {
+  animation: fontColor 10s ease-in-out infinite;
+}
+
+.article-section .grip-article p {
+  font-size: 15px;
+}
+
+.article-section .grip-article {
+  max-width: 400px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.article-section .outer-shadow:hover {
+  border: 1px solid blue;
+  color: var(--primary-color);
 }
 /* Article Section Ends */
 
